@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS events (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    waktu TEXT NOT NULL,
+    event TEXT NOT NULL,
+    hostname TEXT NOT NULL,
+    deskripsi TEXT
+);
+
+CREATE TABLE IF NOT EXISTS alerts (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    waktu TEXT NOT NULL,
+    severity TEXT NOT NULL,
+    pesan TEXT NOT NULL,
+    event TEXT
+);

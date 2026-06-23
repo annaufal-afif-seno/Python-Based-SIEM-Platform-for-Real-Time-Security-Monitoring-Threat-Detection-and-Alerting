@@ -1,0 +1,428 @@
+{
+  "total_events": 30,
+  "total_alerts": 30,
+  "events": [
+    {
+      "id": 1,
+      "waktu": "2026-06-21 22:12:07.565009",
+      "event": "FAILED_SSH",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "Failed password for root from 192.168.1.200 port 22 ssh2"
+    },
+    {
+      "id": 2,
+      "waktu": "2026-06-21 22:13:07.565009",
+      "event": "SUCCESSFUL_SSH",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "Accepted password for admin from 192.168.1.101 port 22 ssh2"
+    },
+    {
+      "id": 3,
+      "waktu": "2026-06-21 22:14:07.565009",
+      "event": "FAILED_SUDO",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "sudo: 1 incorrect password attempt for user alice"
+    },
+    {
+      "id": 4,
+      "waktu": "2026-06-21 22:15:07.565009",
+      "event": "USER_CREATED",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "New user 'bob' added to /etc/passwd"
+    },
+    {
+      "id": 5,
+      "waktu": "2026-06-21 22:16:07.565009",
+      "event": "USER_DELETED",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "User 'tempuser' removed from /etc/passwd"
+    },
+    {
+      "id": 6,
+      "waktu": "2026-06-21 22:17:07.565009",
+      "event": "PACKAGE_INSTALL",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "apt-get install nginx -y"
+    },
+    {
+      "id": 7,
+      "waktu": "2026-06-21 22:18:07.565009",
+      "event": "SERVICE_STOP",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "Service sshd is inactive/dead"
+    },
+    {
+      "id": 8,
+      "waktu": "2026-06-21 22:19:07.565009",
+      "event": "SERVICE_START",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "Service apache2 is running"
+    },
+    {
+      "id": 9,
+      "waktu": "2026-06-21 22:20:07.565009",
+      "event": "FILE_CREATED",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "File /tmp/malicious.sh created"
+    },
+    {
+      "id": 10,
+      "waktu": "2026-06-21 22:21:07.565009",
+      "event": "FILE_MODIFIED",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "File /etc/passwd modified"
+    },
+    {
+      "id": 11,
+      "waktu": "2026-06-21 22:22:07.565009",
+      "event": "FILE_DELETED",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "File /var/log/auth.log deleted"
+    },
+    {
+      "id": 12,
+      "waktu": "2026-06-21 22:23:07.565009",
+      "event": "CUSTOM_LOG",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "Custom application: suspicious API call detected"
+    },
+    {
+      "id": 13,
+      "waktu": "2026-06-21 23:00:00",
+      "event": "FAILED_SSH",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "Test additional failed SSH"
+    },
+    {
+      "id": 14,
+      "waktu": "2026-06-21 22:32:56.699815",
+      "event": "FAILED_SSH",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "Failed password for root from 192.168.1.200"
+    },
+    {
+      "id": 15,
+      "waktu": "2026-06-21 22:37:10.198747",
+      "event": "SUCCESSFUL_SSH",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "Accepted password for admin from 192.168.1.101"
+    },
+    {
+      "id": 16,
+      "waktu": "2026-06-21 22:37:21.621155",
+      "event": "SUCCESSFUL_SSH",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "Accepted password for admin from 192.168.1.101"
+    },
+    {
+      "id": 17,
+      "waktu": "2026-06-21 22:38:41.373420",
+      "event": "FAILED_SUDO",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "sudo: incorrect password attempt"
+    },
+    {
+      "id": 18,
+      "waktu": "2026-06-21 22:38:43.626239",
+      "event": "FAILED_SUDO",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "sudo: incorrect password attempt"
+    },
+    {
+      "id": 19,
+      "waktu": "2026-06-21 22:38:44.726096",
+      "event": "FAILED_SUDO",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "sudo: incorrect password attempt"
+    },
+    {
+      "id": 20,
+      "waktu": "2026-06-21 22:40:24.589805",
+      "event": "USER_CREATED",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "New user bob added"
+    },
+    {
+      "id": 21,
+      "waktu": "2026-06-21 22:40:25.736161",
+      "event": "USER_CREATED",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "New user bob added"
+    },
+    {
+      "id": 22,
+      "waktu": "2026-06-21 22:40:34.819497",
+      "event": "USER_DELETED",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "User tempuser removed"
+    },
+    {
+      "id": 23,
+      "waktu": "2026-06-21 22:40:35.987340",
+      "event": "USER_DELETED",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "User tempuser removed"
+    },
+    {
+      "id": 24,
+      "waktu": "2026-06-21 22:43:33.648885",
+      "event": "FILE_CREATED",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "File /tmp/test.sh created"
+    },
+    {
+      "id": 25,
+      "waktu": "2026-06-21 22:43:41.130453",
+      "event": "FILE_MODIFIED",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "File /etc/passwd modified"
+    },
+    {
+      "id": 26,
+      "waktu": "2026-06-21 22:43:47.517796",
+      "event": "FILE_DELETED",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "File /tmp/test.sh deleted"
+    },
+    {
+      "id": 27,
+      "waktu": "2026-06-21 22:47:03.055685",
+      "event": "CUSTOM_LOG",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "Custom app: suspicious API call"
+    },
+    {
+      "id": 28,
+      "waktu": "2026-06-21 22:47:05.961806",
+      "event": "CUSTOM_LOG",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "Custom app: suspicious API call"
+    },
+    {
+      "id": 29,
+      "waktu": "2026-06-21 22:47:06.886632",
+      "event": "CUSTOM_LOG",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "Custom app: suspicious API call"
+    },
+    {
+      "id": 30,
+      "waktu": "2026-06-21 22:47:07.880455",
+      "event": "CUSTOM_LOG",
+      "hostname": "Endpoint-VM",
+      "deskripsi": "Custom app: suspicious API call"
+    }
+  ],
+  "alerts": [
+    {
+      "id": 1,
+      "waktu": "2026-06-21 22:12:07.565009",
+      "severity": "HIGH",
+      "pesan": "Failed SSH login detected",
+      "event": "FAILED_SSH"
+    },
+    {
+      "id": 2,
+      "waktu": "2026-06-21 22:13:07.565009",
+      "severity": "LOW",
+      "pesan": "Successful SSH login",
+      "event": "SUCCESSFUL_SSH"
+    },
+    {
+      "id": 3,
+      "waktu": "2026-06-21 22:14:07.565009",
+      "severity": "HIGH",
+      "pesan": "Failed sudo attempt detected",
+      "event": "FAILED_SUDO"
+    },
+    {
+      "id": 4,
+      "waktu": "2026-06-21 22:15:07.565009",
+      "severity": "HIGH",
+      "pesan": "New user account created",
+      "event": "USER_CREATED"
+    },
+    {
+      "id": 5,
+      "waktu": "2026-06-21 22:16:07.565009",
+      "severity": "HIGH",
+      "pesan": "User account deleted",
+      "event": "USER_DELETED"
+    },
+    {
+      "id": 6,
+      "waktu": "2026-06-21 22:17:07.565009",
+      "severity": "MEDIUM",
+      "pesan": "Package installation detected",
+      "event": "PACKAGE_INSTALL"
+    },
+    {
+      "id": 7,
+      "waktu": "2026-06-21 22:18:07.565009",
+      "severity": "MEDIUM",
+      "pesan": "Service stopped",
+      "event": "SERVICE_STOP"
+    },
+    {
+      "id": 8,
+      "waktu": "2026-06-21 22:19:07.565009",
+      "severity": "LOW",
+      "pesan": "Service started",
+      "event": "SERVICE_START"
+    },
+    {
+      "id": 9,
+      "waktu": "2026-06-21 22:20:07.565009",
+      "severity": "MEDIUM",
+      "pesan": "File created",
+      "event": "FILE_CREATED"
+    },
+    {
+      "id": 10,
+      "waktu": "2026-06-21 22:21:07.565009",
+      "severity": "MEDIUM",
+      "pesan": "File modified",
+      "event": "FILE_MODIFIED"
+    },
+    {
+      "id": 11,
+      "waktu": "2026-06-21 22:22:07.565009",
+      "severity": "HIGH",
+      "pesan": "File deleted",
+      "event": "FILE_DELETED"
+    },
+    {
+      "id": 12,
+      "waktu": "2026-06-21 22:23:07.565009",
+      "severity": "LOW",
+      "pesan": "Custom application log event",
+      "event": "CUSTOM_LOG"
+    },
+    {
+      "id": 13,
+      "waktu": "2026-06-21 23:00:00",
+      "severity": "HIGH",
+      "pesan": "Failed SSH login detected",
+      "event": "FAILED_SSH"
+    },
+    {
+      "id": 14,
+      "waktu": "2026-06-21 22:32:56.699815",
+      "severity": "HIGH",
+      "pesan": "Failed SSH login detected",
+      "event": "FAILED_SSH"
+    },
+    {
+      "id": 15,
+      "waktu": "2026-06-21 22:37:10.198747",
+      "severity": "LOW",
+      "pesan": "Successful SSH login",
+      "event": "SUCCESSFUL_SSH"
+    },
+    {
+      "id": 16,
+      "waktu": "2026-06-21 22:37:21.621155",
+      "severity": "LOW",
+      "pesan": "Successful SSH login",
+      "event": "SUCCESSFUL_SSH"
+    },
+    {
+      "id": 17,
+      "waktu": "2026-06-21 22:38:41.373420",
+      "severity": "HIGH",
+      "pesan": "Failed sudo attempt detected",
+      "event": "FAILED_SUDO"
+    },
+    {
+      "id": 18,
+      "waktu": "2026-06-21 22:38:43.626239",
+      "severity": "HIGH",
+      "pesan": "Failed sudo attempt detected",
+      "event": "FAILED_SUDO"
+    },
+    {
+      "id": 19,
+      "waktu": "2026-06-21 22:38:44.726096",
+      "severity": "HIGH",
+      "pesan": "Failed sudo attempt detected",
+      "event": "FAILED_SUDO"
+    },
+    {
+      "id": 20,
+      "waktu": "2026-06-21 22:40:24.589805",
+      "severity": "HIGH",
+      "pesan": "New user account created",
+      "event": "USER_CREATED"
+    },
+    {
+      "id": 21,
+      "waktu": "2026-06-21 22:40:25.736161",
+      "severity": "HIGH",
+      "pesan": "New user account created",
+      "event": "USER_CREATED"
+    },
+    {
+      "id": 22,
+      "waktu": "2026-06-21 22:40:34.819497",
+      "severity": "HIGH",
+      "pesan": "User account deleted",
+      "event": "USER_DELETED"
+    },
+    {
+      "id": 23,
+      "waktu": "2026-06-21 22:40:35.987340",
+      "severity": "HIGH",
+      "pesan": "User account deleted",
+      "event": "USER_DELETED"
+    },
+    {
+      "id": 24,
+      "waktu": "2026-06-21 22:43:33.648885",
+      "severity": "MEDIUM",
+      "pesan": "File created",
+      "event": "FILE_CREATED"
+    },
+    {
+      "id": 25,
+      "waktu": "2026-06-21 22:43:41.130453",
+      "severity": "MEDIUM",
+      "pesan": "File modified",
+      "event": "FILE_MODIFIED"
+    },
+    {
+      "id": 26,
+      "waktu": "2026-06-21 22:43:47.517796",
+      "severity": "HIGH",
+      "pesan": "File deleted",
+      "event": "FILE_DELETED"
+    },
+    {
+      "id": 27,
+      "waktu": "2026-06-21 22:47:03.055685",
+      "severity": "LOW",
+      "pesan": "Custom application log event",
+      "event": "CUSTOM_LOG"
+    },
+    {
+      "id": 28,
+      "waktu": "2026-06-21 22:47:05.961806",
+      "severity": "LOW",
+      "pesan": "Custom application log event",
+      "event": "CUSTOM_LOG"
+    },
+    {
+      "id": 29,
+      "waktu": "2026-06-21 22:47:06.886632",
+      "severity": "LOW",
+      "pesan": "Custom application log event",
+      "event": "CUSTOM_LOG"
+    },
+    {
+      "id": 30,
+      "waktu": "2026-06-21 22:47:07.880455",
+      "severity": "LOW",
+      "pesan": "Custom application log event",
+      "event": "CUSTOM_LOG"
+    }
+  ]
+}

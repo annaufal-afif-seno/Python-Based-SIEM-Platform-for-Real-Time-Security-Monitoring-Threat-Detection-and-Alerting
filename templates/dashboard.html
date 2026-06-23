@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SIEM Dashboard</title>
+<style>
+body{
+font-family:Arial;
+background:#f4f4f4;
+padding:30px;
+}
+.card{
+background:white;
+padding:20px;
+margin-bottom:20px;
+border-radius:10px;
+}
+table{
+width:100%;
+border-collapse:collapse;
+}
+th,td{
+padding:12px;
+border:1px solid #ddd;
+}
+th{
+background:#333;
+color:white;
+}
+</style>
+</head>
+<body>
+<h1>SIEM Dashboard</h1>
+<div class="card">
+<h2>Total Event : {{ total_events }}</h2>
+<h2>Total Alert : {{ total_alerts }}</h2>
+</div>
+<div class="card">
+<h2>Filter Event</h2>
+<form method="GET">
+<select name="event">
+<option value="">Semua Event</option>
+{% for item in event_types %}
+<option value="{{ item['event'] }}" {% if selected_event == item['event'] %}selected{% endif %}>{{ item["event"] }}</option>
+{% endfor %}
+</select>
+<button type="submit">Filter</button>
+</form>
+</div>
+<div class="card">
+<h2>Recent Events</h2>
+<table>
+<tr>
+<th>ID</th>
+<th>Waktu</th>
+<th>Event</th>
+<th>Hostname</th>
+<th>Deskripsi</th>
+</tr>
+{% for event in events %}
+<tr>
+<td>{{event["id"]}}</td>
+<td>{{event["waktu"]}}</td>
+<td>{{event["event"]}}</td>
+<td>{{event["hostname"]}}</td>
+<td>{{event["deskripsi"]}}</td>
+</tr>
+{% endfor %}
+</table>
+</div>
+<div class="card">
+<h2>Alerts</h2>
+<table>
+<tr>
+<th>ID</th>
+<th>Waktu</th>
+<th>Severity</th>
+<th>Pesan</th>
+<th>Event</th>
+</tr>
+{% for alert in alerts %}
+<tr>
+<td>{{alert["id"]}}</td>
+<td>{{alert["waktu"]}}</td>
+<td>{{alert["severity"]}}</td>
+<td>{{alert["pesan"]}}</td>
+<td>{{alert["event"]}}</td>
+</tr>
+{% endfor %}
+</table>
+</div>
+</body>
+</html>

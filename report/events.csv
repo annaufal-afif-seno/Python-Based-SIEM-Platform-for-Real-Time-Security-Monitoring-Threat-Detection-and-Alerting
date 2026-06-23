@@ -1,0 +1,31 @@
+id,waktu,event,hostname,deskripsi
+1,2026-06-21 22:12:07.565009,FAILED_SSH,Endpoint-VM,Failed password for root from 192.168.1.200 port 22 ssh2
+2,2026-06-21 22:13:07.565009,SUCCESSFUL_SSH,Endpoint-VM,Accepted password for admin from 192.168.1.101 port 22 ssh2
+3,2026-06-21 22:14:07.565009,FAILED_SUDO,Endpoint-VM,sudo: 1 incorrect password attempt for user alice
+4,2026-06-21 22:15:07.565009,USER_CREATED,Endpoint-VM,New user 'bob' added to /etc/passwd
+5,2026-06-21 22:16:07.565009,USER_DELETED,Endpoint-VM,User 'tempuser' removed from /etc/passwd
+6,2026-06-21 22:17:07.565009,PACKAGE_INSTALL,Endpoint-VM,apt-get install nginx -y
+7,2026-06-21 22:18:07.565009,SERVICE_STOP,Endpoint-VM,Service sshd is inactive/dead
+8,2026-06-21 22:19:07.565009,SERVICE_START,Endpoint-VM,Service apache2 is running
+9,2026-06-21 22:20:07.565009,FILE_CREATED,Endpoint-VM,File /tmp/malicious.sh created
+10,2026-06-21 22:21:07.565009,FILE_MODIFIED,Endpoint-VM,File /etc/passwd modified
+11,2026-06-21 22:22:07.565009,FILE_DELETED,Endpoint-VM,File /var/log/auth.log deleted
+12,2026-06-21 22:23:07.565009,CUSTOM_LOG,Endpoint-VM,Custom application: suspicious API call detected
+13,2026-06-21 23:00:00,FAILED_SSH,Endpoint-VM,Test additional failed SSH
+14,2026-06-21 22:32:56.699815,FAILED_SSH,Endpoint-VM,Failed password for root from 192.168.1.200
+15,2026-06-21 22:37:10.198747,SUCCESSFUL_SSH,Endpoint-VM,Accepted password for admin from 192.168.1.101
+16,2026-06-21 22:37:21.621155,SUCCESSFUL_SSH,Endpoint-VM,Accepted password for admin from 192.168.1.101
+17,2026-06-21 22:38:41.373420,FAILED_SUDO,Endpoint-VM,sudo: incorrect password attempt
+18,2026-06-21 22:38:43.626239,FAILED_SUDO,Endpoint-VM,sudo: incorrect password attempt
+19,2026-06-21 22:38:44.726096,FAILED_SUDO,Endpoint-VM,sudo: incorrect password attempt
+20,2026-06-21 22:40:24.589805,USER_CREATED,Endpoint-VM,New user bob added
+21,2026-06-21 22:40:25.736161,USER_CREATED,Endpoint-VM,New user bob added
+22,2026-06-21 22:40:34.819497,USER_DELETED,Endpoint-VM,User tempuser removed
+23,2026-06-21 22:40:35.987340,USER_DELETED,Endpoint-VM,User tempuser removed
+24,2026-06-21 22:43:33.648885,FILE_CREATED,Endpoint-VM,File /tmp/test.sh created
+25,2026-06-21 22:43:41.130453,FILE_MODIFIED,Endpoint-VM,File /etc/passwd modified
+26,2026-06-21 22:43:47.517796,FILE_DELETED,Endpoint-VM,File /tmp/test.sh deleted
+27,2026-06-21 22:47:03.055685,CUSTOM_LOG,Endpoint-VM,Custom app: suspicious API call
+28,2026-06-21 22:47:05.961806,CUSTOM_LOG,Endpoint-VM,Custom app: suspicious API call
+29,2026-06-21 22:47:06.886632,CUSTOM_LOG,Endpoint-VM,Custom app: suspicious API call
+30,2026-06-21 22:47:07.880455,CUSTOM_LOG,Endpoint-VM,Custom app: suspicious API call
