@@ -1,11 +1,3 @@
-# Proyek UAS Python for Cyber Security - SIEM
-
-## Anggota Kelompok & Pembagian Tugas
-
-| Nama               | NIM        | Tugas                                                                                                                    |
-| ------------------ | ---------- | ------------------------------------------------------------------------------------------------------------------------ |
-| ANNAUFAL AFIF SENO | 2023071054 | SIEM Server (API, Rule Engine), Endpoint Agent, Log Monitoring, Web Dashboard, Database, Reporting, Testing, Dokumentasi |
-
 
 ## System Design
 
